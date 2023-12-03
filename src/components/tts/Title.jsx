@@ -2,13 +2,13 @@ import Speech from 'speak-tts';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
 
-export const Paragraph = (props) => {
+export const Title = (props) => {
     const { text } = props;
     const speech = new Speech();
 
     speech.init({
         'volume': 1,
-         'lang': 'es-ES',
+         'lang': 'en-GB',
          'rate': 1,
          'pitch': 1,
          'voice':'Google UK English Male',
